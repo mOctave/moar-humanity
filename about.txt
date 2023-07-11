@@ -1,2 +1,1 @@
-Enter some text that describes your plugin in this file.
-Endless Sky will then display it when the user has your plugin installed and selected.
+Moar Humanity is a plugin providing various miscellaneous additions to human space. Some additions are comical, some useful, and some are actually potentially interesting.

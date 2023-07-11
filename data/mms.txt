@@ -1,0 +1,44 @@
+government "MMS"
+	"display name" "Marauder"
+	"swizzle" 6
+	"color" .8 .3 .1
+
+	"player reputation" 1
+	"penalty for"
+		assist -0.1
+		disable 0
+		board 0.05
+		capture 0.5
+		destroy 1
+		atrocity 8
+	"crew attack" 1.2
+	"crew defense" 1.9
+	"attitude toward"
+		"Marauder" 1
+		"Republic" -.01
+		"Free Worlds" .01
+		"Pirate" .01
+		"Syndicate" .01
+		"Pug" -.01
+		"Merchant" .01
+	"bribe" .02
+	"fine" .01
+	"death sentence" "marauded by max"
+
+conversation "marauded by max"
+	branch "landed"
+		has "flagship landed"
+	`Out of nowhere, a Marauder Fury appears, vaporizes your ship with stolen Drak weaponry, and vanishes without a trace. Unfortunately, you are no longer around to remark on its disappearance, as you have been vaporized along with the rest of your ship.`
+		explode
+	label "landed"
+	`Marauding Max himself appears as you land. "You really shouldn't be carrying that stuff around here," he tells you, "I mean, really. So really, in fact, that I'm afraid I'm going to have to execute you terminally." While you're still trying to process the grammar of the previous sentence, Marauding Max pulls a rocket launcher out of his pocket and blasts you to smithereens, as well as producing a noticeable dent in your starship hull.`
+		die
+
+system Botein
+	pos -161 3
+	government "MMS"
+	attributes "core"
+	link Hamal
+
+system Hamal
+	add link Botein
