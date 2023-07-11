@@ -1,10 +1,14 @@
-# plugin-template
-This repository serves as a basic template to be used when creating a plugin for the game Endless Sky. Fork it and start modding!
+# Moar Humanity
 
-[Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
+The time has come for me to make another plugin, and here it is!
 
+Moar Humanity is my dump for everything human related that involves original creation (read, not ship splices). Some of this new content is actually somewhat realistic, but a lot of it, _especially_ the setup with Marauding Max, is completely illogical and designed for comic relief rather than sanity.
 
-## Things to do after forking:
-1. Clone your repo locally. You'll want to clone / symlink your repo within the `"plugins"` directory in your "user" directory (which is where Endless Sky writes your pilot savegames). This ensures you can update your local version of Endless Sky without worrying about losing any uncommitted & unpushed data.
-2. Flesh out your content! You can learn about all the different bits of game data in the [Endless Sky wiki](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins)
-3. [Submit your plugin for distribution](https://github.com/EndlessSkyCommunity/endless-sky-plugins) (to be updated)
+## Current Status: Public Alpha
+
+Currently, Moar Humanity is in an alpha state. It is public, but it will undoubtedly be buggy and unfinished. Endless Sky's continuous releases _may_ eat your kitten, this __probably will__. Use with caution, report any bugs you find, and bug me to update this whenever you want more fanatical space pirates.
+
+## Includes:
+
+- Some extra, realistic jobs in human space.
+- Marauding Max Shipyards, your one-stop source for all Marauder ships. Combat Drones available upon request.
